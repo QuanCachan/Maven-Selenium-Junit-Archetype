@@ -5,7 +5,7 @@
 	<groupId>fr.henix.squash</groupId>
 	<artifactId>maven-selenium-junit-archetype</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>maven-archetype</packaging>
+        <packaging>maven-archetype</packaging>
 
 	<name>Maven-Selenium-Junit-Archetype</name>
 	<description>Archetype for a Maven project intended to develop tests with Selenium WebDriver and JUnit</description>
@@ -13,6 +13,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+                <archetype.version>3.0.1</archetype.version>
 	</properties>
 
 	<licenses>
@@ -34,7 +35,7 @@
 			<extension>
 				<groupId>org.apache.maven.archetype</groupId>
 				<artifactId>archetype-packaging</artifactId>
-				<version>3.0.1</version>
+				<version>${archetype.version}</version>
 			</extension>
 		</extensions>
 
@@ -43,18 +44,11 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-archetype-plugin</artifactId>
+                                        <version>${archetype.version}</version>
 					<extensions>true</extensions>
 				</plugin>
 			</plugins>
 		</pluginManagement>
-
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-archetype-plugin</artifactId>
-				<version>3.0.1</version>
-			</plugin>
-		</plugins>
 	</build>
 
 </project>
