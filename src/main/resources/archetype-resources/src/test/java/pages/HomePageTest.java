@@ -15,8 +15,6 @@ public class HomePageTest extends TestBase {
 
 	HomePage homepage;
 
-			
-
 	@Test
 	public void testH1Existing() throws InterruptedException {
 

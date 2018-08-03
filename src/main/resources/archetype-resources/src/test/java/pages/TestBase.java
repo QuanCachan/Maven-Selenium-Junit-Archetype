@@ -26,7 +26,6 @@ public class TestBase {
 	public static void init() {
 		websiteUrl = PropertyLoader.loadProperty("site.url");
 
-		// TODO for next step with Se Grid (update in application.properties)
 		gridHubUrl = PropertyLoader.loadProperty("grid2.hub");
 
 		browser = new Browser();
