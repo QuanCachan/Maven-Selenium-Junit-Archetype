@@ -13,6 +13,11 @@ import ${groupId}.util.Browser;
 import ${groupId}.util.PropertyLoader;
 import ${groupId}.webdriver.WebDriverFactory;
 
+/**
+ * Base class for all the test classes
+ * 
+ * @author qtran
+ */
 public class TestBase {
 
 	protected static WebDriver webDriver;
