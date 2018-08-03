@@ -17,9 +17,9 @@ Now, from the workspace that you want to create your Maven project using this ar
 
     Then, type:
 
-        mvn archetype:generate -DarchetypeGroupId=fr.henix.squash -DarchetypeArtifactId=maven-selenium-junit-archetype -DarchetypeVersion=0.0.1-SNAPSHOT -DgroupId=mygroupId -DartifactId=myartifactId
+        mvn archetype:generate -DarchetypeGroupId=fr.henix.squash -DarchetypeArtifactId=maven-selenium-junit-archetype -DarchetypeVersion=0.0.1-SNAPSHOT -DgroupId=myGroupId -DartifactId=myArtifactId
     						 
-where *mygroupId* : group id of the project to be created; *myartifactId* : artifact id of the project to be created
+where *myGroupId* : group id of the project to be created; *myArtifactId* : artifact id of the project to be created
 
 This archetype uses Java bindings for Selenium version 3.12.0 and Junit version 4.12.
 
