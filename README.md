@@ -61,7 +61,7 @@ Then in the *src/main/java/your.group.Id/webdriver*, in WebDriverFactory Java cl
 
 JUnit
 ------
-For more info around JUnit 4, go to https://github.com/junit-team/junit4/wiki.
+For more info around JUnit 4, go to https://github.com/junit-team/junit4/wiki
 
 
 Page Object pattern
